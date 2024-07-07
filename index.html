@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <script src="./index.js"></script>
+    <h1>Color palette creator</h1>
+    <form action="#">
+      <input type="file" id="imgfile" />
+      <input type="button" id="btnLoad" value="Load" onclick="main();" />
+    </form>
+    <canvas id="canvas"></canvas>
+    <h3>Color Pallet:</h3>
+    <div id="palette"></div>
+    <hr />
+    <h3>Complimentary Colors:</h3>
+    <div id="complementary"></div>
+  </body>
+</html>
